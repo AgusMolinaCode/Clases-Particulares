@@ -183,9 +183,9 @@ footer{
     position: fixed;
     z-index: 999;
     border-radius: 50%;
-    bottom: 150px;
+    bottom: 80px;
     right: 6px;
-    padding: 8px;
+    padding: 15px;
     transition: ease 0.8s;
     animation: efecto 1.5s infinite;
 }
@@ -196,7 +196,7 @@ footer{
 }
 
 .boton{
-    width: 30px;
+    width: 60px;
     transition: ease 1s;
 }
 
@@ -253,6 +253,14 @@ footer{
 
     p{
     font-size: 20px;
+    }
+
+    .boton{
+        width: 30px;
+    }    
+
+    .container-boton{
+        padding: 9px;
     }
     
 }
